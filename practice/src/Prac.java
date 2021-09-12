@@ -8,7 +8,7 @@ public class Prac {
         System.out.printf("max value is %s\n", maxValue);
         // 字符串可以与任意类型拼接
         System.out.println("fu"+a);
-        // & |  or && || 短路效果 
+        // & |  or && || 短路效果
     }
 }
 
