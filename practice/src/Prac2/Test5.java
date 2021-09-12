@@ -1,6 +1,12 @@
 package Prac2;
 
 import java.util.Random;
+/*
+    Project - module
+            - module -package
+                     -package - class
+                              - class
+ */
 
 public class Test5 {
     public static void main(String[] args) {
