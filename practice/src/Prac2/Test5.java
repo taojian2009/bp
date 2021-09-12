@@ -14,7 +14,8 @@ public class Test5 {
         for (int i = 0; i < 10; i++) {
             System.out.println(ran.nextInt(10));
         }
-
+        int a = 10;
+        byte b = (byte) a;
     }
 }
 
