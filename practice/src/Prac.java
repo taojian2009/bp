@@ -5,7 +5,9 @@ public class Prac {
         char c = 'b';
         System.out.println(b + c);
         int maxValue = Math.max(a, b);
-        System.out.printf("max value is %s", maxValue);
+        System.out.printf("max value is %s\n", maxValue);
+        // 字符串可以与任意类型拼接
+        System.out.println("fu"+a);
     }
 }
 
