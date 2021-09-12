@@ -18,10 +18,16 @@ public class Test6 {
         System.out.println(Arrays.toString(percents));
         for (String percent : percents
         ) {
-            if (percentToFloat(percent) > 0) {
+//            if (percentToFloat(percent) > 0) {
+//                earnCount++;
+//            } else {
+//                lossCount++;
+//            }
+            if (!percent.contains("-")) {
                 earnCount++;
             } else {
                 lossCount++;
+
             }
         }
         System.out.println("earn: " + earnCount + ",\nloss:" + lossCount);
